@@ -23,8 +23,13 @@ export default new Router({
     },
     {
       path: "/chartsDemo",
-      name: "chartsDemo",
+      name: "ChartsDemo",
       component: () => import("@/components/03-chartsDemo.vue")
+    },
+    {
+      path: "/chart",
+      name: "Chart",
+      component: () => import("@/components/04-chart.vue")
     }
   ]
 });
